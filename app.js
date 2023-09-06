@@ -21,6 +21,11 @@ app.use(cookieParser());
 
 //importing routes
 
+
+app.get("/",(req,res)=>{
+    res.send("Hola")
+})
+
 const post=require("./routes/post");
 const user=require("./routes/user");
 
