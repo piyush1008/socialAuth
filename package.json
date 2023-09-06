@@ -2,9 +2,12 @@
   "name": "mern-social",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node":">=14.20.1"
+  },
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
