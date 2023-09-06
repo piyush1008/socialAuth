@@ -23,7 +23,7 @@ app.use(cookieParser());
 
 
 app.get("/",(req,res)=>{
-    res.send("Hola")
+    res.send("Hello mote")
 })
 
 const post=require("./routes/post");
